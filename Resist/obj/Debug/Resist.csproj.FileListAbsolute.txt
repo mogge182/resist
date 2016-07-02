@@ -1,0 +1,14 @@
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\bin\Debug\Resist.exe.config
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\Resist.csprojResolveAssemblyReference.cache
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\MainWindow.g.cs
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\App.g.cs
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\Resist_MarkupCompile.cache
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\Resist_MarkupCompile.lref
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\bin\Debug\Resist.exe
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\bin\Debug\Resist.pdb
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\MainWindow.baml
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\Resist.g.resources
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\Resist.Properties.Resources.resources
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\Resist.csproj.GenerateResource.Cache
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\Resist.exe
+c:\users\morgan\documents\visual studio 2015\Projects\Resist\Resist\obj\Debug\Resist.pdb

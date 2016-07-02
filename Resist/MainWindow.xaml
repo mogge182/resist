@@ -1,0 +1,59 @@
+﻿<Window x:Class="Resist.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Resist"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+           <RowDefinition></RowDefinition>
+           <RowDefinition></RowDefinition>
+           <RowDefinition></RowDefinition>
+           <RowDefinition></RowDefinition>
+           <RowDefinition></RowDefinition>
+           <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label></Label>
+        <Label Grid.Row="0" Grid.Column="0" Content="Spined" Margin="5"></Label>
+        <Label Grid.Row="0" Grid.Column="1" Content="Horned" Margin="5"></Label>
+        <Label Grid.Row="0" Grid.Column="2" Content="Barbed" Margin="5"></Label>
+        <Label Grid.Row="3" Grid.Column="0" Content="Physical" Margin="5"></Label>
+        <Label Grid.Row="3" Grid.Column="1" Content="Fire" Margin="5"></Label>
+        <Label Grid.Row="3" Grid.Column="2" Content="Cold" Margin="5"></Label>
+        <Label Grid.Row="3" Grid.Column="3" Content="Poison" Margin="5"></Label>
+        <Label Grid.Row="3" Grid.Column="4" Content="Energy" Margin="5"></Label>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="5" Text="{Binding ManySpined, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Text="{Binding ManyHorned, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="2" Margin="5" Text="{Binding ManyBarbed, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="4" Grid.Column="0" Margin="5" Text="{Binding ArmorPhys, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="4" Grid.Column="1" Margin="5" Text="{Binding ArmorFire, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="4" Grid.Column="2" Margin="5" Text="{Binding ArmorCold, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="4" Grid.Column="3" Margin="5" Text="{Binding ArmorPoison, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="4" Grid.Column="4" Margin="5" Text="{Binding ArmorEnergy, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+        <Label Grid.Row="2" Grid.Column="0" Margin="5" Content="{Binding NeededPhys,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        <Label Grid.Row="2" Grid.Column="1" Margin="5" Content="{Binding NeededFire,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        <Label Grid.Row="2" Grid.Column="2" Margin="5" Content="{Binding NeededCold,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        <Label Grid.Row="2" Grid.Column="3" Margin="5" Content="{Binding NeededPoison,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        <Label Grid.Row="2" Grid.Column="4" Margin="5" Content="{Binding NeededEnergy,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+
+
+
+        <Label Grid.Row="5" Grid.Column="0" Margin="5" Content="{Binding TotalPhys,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        <Label Grid.Row="5" Grid.Column="1" Margin="5" Content="{Binding TotalFire,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        <Label Grid.Row="5" Grid.Column="2" Margin="5" Content="{Binding TotalCold,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        <Label Grid.Row="5" Grid.Column="3" Margin="5" Content="{Binding TotalPoison,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        <Label Grid.Row="5" Grid.Column="4" Margin="5" Content="{Binding TotalEnergy,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Label>
+        
+        
+        </Grid>
+</Window>
